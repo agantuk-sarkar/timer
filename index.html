@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="timer-container border border-red-600 h-[40vh] w-[50rem] mx-auto mt-[3rem]"
+    >
+      <div
+        class="timer-content border border-blue-500 w-[15rem] mx-auto mt-[5rem] px-[2rem] text-2xl text-center"
+      >
+        <span class="timer-minute">00</span>
+        <span>m</span>
+        <span class="timer-second">00</span>
+        <span>s</span>
+      </div>
+      <div
+        class="buttons border-transparent w-[15rem] mx-auto mt-[2rem] p-[1%] flex justify-around"
+      >
+        <button class="w-[4rem] bg-sky-600 text-white">START</button>
+        <button class="w-[4rem] bg-sky-600 text-white">RESET</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
